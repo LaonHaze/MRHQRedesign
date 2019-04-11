@@ -44,7 +44,7 @@ const routing = (
                 </Nav>
                 <ButtonToolbar>
                     <Button variant='outline-light' href='/applicationform'>Apply</Button>
-                    <Button variant='outline-light'>Contact Us</Button>
+                    <Button variant='outline-light' href='/applicationform'>Contact Us</Button>
                 </ButtonToolbar>
                 
             </Navbar>

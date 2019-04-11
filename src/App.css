@@ -95,8 +95,17 @@
   background: black;
   padding-left: 5rem;
   padding-right: 5rem;
+  color: white;
 }
 
+.centerboxy {
+  width: 33%;
+  margin-left: 33%;
+}
+
+.blacktitle {
+  color: orange !important;
+}
 
 .mainboxalt {
   background: white;
@@ -115,4 +124,11 @@
   margin-top: 20px !important;
 }
 
+.logoimg {
+  max-height: 200px;
+  max-width: 200px;
+  width: auto;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
 
