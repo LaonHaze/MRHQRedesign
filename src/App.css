@@ -31,3 +31,88 @@
     transform: rotate(360deg);
   }
 }
+
+.jumbotron h1 {
+  color: white;
+}
+
+.jumbotron h4 {
+  color: white;
+}
+
+.jumbotron {
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 0px;
+  background-color: white;
+}
+
+.push-to-middle {
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+}
+
+.push-to-bottom {
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+}
+
+.card {
+  outline-width: 0px;
+  border-width: 0px;
+}
+
+.maincard {
+  outline-color: white;
+  border-color:white;
+  border-width: 2px;
+  color: white;
+  background: black;
+}
+
+.topcard {
+  padding: 20px;
+  outline-color: white;
+  border-color: white;
+  border-width: 4px;
+  width: 80%;
+  color: white;
+  background: transparent;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  background: black;
+}
+
+.maintitle {
+  font-size: 30px;
+  font-style: bold;
+}
+
+.mainbox {
+  background: black;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+
+.mainboxalt {
+  background: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.titlebox {
+  background: white;
+  color: orange;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.buttombutton {
+  margin-top: 20px !important;
+}
+
+

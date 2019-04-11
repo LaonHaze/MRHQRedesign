@@ -10,12 +10,13 @@ import NotFound from './NotFound';
 import Experience from './Experience';
 import Funding from './Funding';
 import Partnerships from './Partnerships';
+import ApplicationForm from './ApplicationForm';
 import * as serviceWorker from './serviceWorker';
 
 const routing = (
     <Router>
         <div>
-            <Navbar bg = 'dark' expand = 'lg' className='justify-content-between'>
+            <Navbar bg = 'dark' expand = 'lg' fixed = 'top' className='justify-content-between'>
                 <Navbar.Brand href= '/'>
                         <img
                             src = '/mrhqlogo.png'
@@ -42,7 +43,7 @@ const routing = (
                     </Nav.Item>
                 </Nav>
                 <ButtonToolbar>
-                    <Button variant='outline-light'>Apply</Button>
+                    <Button variant='outline-light' href='/applicationform'>Apply</Button>
                     <Button variant='outline-light'>Contact Us</Button>
                 </ButtonToolbar>
                 
@@ -54,6 +55,7 @@ const routing = (
                 <Route path='/experience' component={Experience} />
                 <Route path='/funding' component={Funding} />
                 <Route path='/partnerships' component={Partnerships} />
+                <Route path='/applicationform' component={ApplicationForm} />
                 <Route component={NotFound} />
             </Switch>            
         </div>
