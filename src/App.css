@@ -120,6 +120,10 @@
   padding-bottom: 50px;
 }
 
+.formpage {
+  width: 50%;
+}
+
 .buttombutton {
   margin-top: 20px !important;
 }

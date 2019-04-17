@@ -11,6 +11,7 @@ import Experience from './Experience';
 import Funding from './Funding';
 import Partnerships from './Partnerships';
 import ApplicationForm from './ApplicationForm';
+import Confirm from './Confirm';
 import * as serviceWorker from './serviceWorker';
 
 const routing = (
@@ -56,6 +57,7 @@ const routing = (
                 <Route path='/funding' component={Funding} />
                 <Route path='/partnerships' component={Partnerships} />
                 <Route path='/applicationform' component={ApplicationForm} />
+                <Route path='/confirm' component={Confirm} />
                 <Route component={NotFound} />
             </Switch>            
         </div>
